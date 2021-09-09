@@ -5,6 +5,6 @@ A lyrics search app
 Search for your favourite artists or song now !!!
 
 
-<img src="GET-LYRICS.png"
+<img src="https://github.com/eric-asare/get-lyrics/blob/main/images/GET-LYRICS.png"
      alt="get lyrics UI"
      style="" />
