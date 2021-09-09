@@ -1,9 +1,9 @@
 # get-lyrics
 A lyrics search app 
 
-> Are you a music lover?  Get Lyrics App is your number one stop for all the lyrics you need
+> Are you a music lover?  *Get Lyrics App* is your number one stop for all the lyrics you need
 
-Search for your favourite artists or song now !!!
+Search for your favourite artists or song now using this [link](https://www.google.com) !!!
 
 
 <img src="https://github.com/eric-asare/get-lyrics/blob/main/images/GET-LYRICS.png"
