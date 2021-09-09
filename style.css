@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kaisei+HarunoUmi:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kaisei+HarunoUmi:wght@400;500;700&family=Libre+Baskerville&display=swap');
 /* css variables */
 :root {
 
     --primary-color:#7F00FF;
-    --secondary-color: rgba(255,214,165,.5);
+    --secondary-color: rgba(73, 212, 69, 0.5);
     --text-color:white;
 }
 
 
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    background : url(images/background-image-4.jpg) no-repeat center;
+    font-family: fantasy, sans-serif;
+    background : url(images/background-3.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
+    background-color: black; 
     height: 100vh;
     position:relative;
     color : white;
+    font-size: 1.2rem;
 }
 
 
@@ -42,8 +44,33 @@ strong {
 }
 
 
-header .container{
+.logo ,.welcome{
+    font-family: 'Bree Serif', serif;
     text-align: center;
+    font-size: 3rem;
+}
+
+
+.welcome{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    text-align: center;
+    color:black;
+   
+}
+
+
+.info{
+    font-family:fantasy;
+}
+
+
+
+.container{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
 }
 
 
@@ -54,6 +81,7 @@ header form {
   width: 900px;
   margin: 0 auto;
   margin-bottom: 2rem;
+  border: 1px solid blueviolet;
 
 }
 
@@ -85,18 +113,13 @@ form button:hover{
 }
 
 
+
 section .container{
-    display:block;
-    margin-right: 0 auto;
-    text-align: center;
     padding: 4rem 0;
-    border-radius: 10px;
     width: 900px;
-    margin: 0 auto;
     color:var(--text-color);
     background-color: var(--secondary-color);
-
-
+    margin-bottom: 5%;
 }
 
 
@@ -138,7 +161,7 @@ section .container{
     justify-content: center;
     align-items: center;
     padding: 5px 0;
-    border-bottom: 5px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
 
 }
 
@@ -147,6 +170,7 @@ section .container{
     background-color: var(--primary-color);
     padding: 5px; 
     margin: 5px;
+    margin-left: 10px;
     outline: none;
     border-radius: 5px;
     cursor:pointer;
@@ -155,3 +179,25 @@ section .container{
 
 }
 
+
+
+#social , a {
+   color: var(--text-color);
+}
+
+
+
+/*Make Responsive */
+
+@media only screen and (max-width: 800px) {
+    section .container , header form, footer{
+        width: 500px;
+    }
+
+
+    section .container{
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+}
