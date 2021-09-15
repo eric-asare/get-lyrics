@@ -6,6 +6,6 @@ A lyrics search app
 Search for your favourite artists or song now using this [link](https://get-song-lyrics-app.netlify.app/) !!!
 
 
-<img src="https://github.com/eric-asare/get-lyrics/blob/main/images/GET-LYRICS.webp"
+<img src="https://github.com/eric-asare/get-lyrics/blob/main/images/GET-LYRICS.png"
      alt="get lyrics UI"
      style="" />
