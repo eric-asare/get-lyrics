@@ -109,9 +109,6 @@ function formatLyrics(artisteName, songTitle, lyricsData){
 
 function displayError(message){
      // inform user of error
-     if (messagee === "TypeError: Failed to fetch"){
-        errorMessage.innerHTML = `<h2> check your internet </h2>`
-     }
      errorMessage.innerHTML = `<h2> ${message}</h2>`
      errorMessage.style.display = 'block';
      setTimeout(() =>{
