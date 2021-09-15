@@ -191,14 +191,64 @@ section .container{
 /*Make Responsive */
 
 @media only screen and (max-width: 800px) {
+
+    body{
+        font-size: 1rem;
+    }
+
     section .container , header form, footer{
-        width: 500px;
+        width: 300px;
     }
 
 
     section .container{
-        margin-bottom: 10%;
-        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
+
+
+    .error{
+        width: 50%;
+    }
+
+    .logo{
+        font-size: 2.5rem;
+    }
+
+    .welcome{
+        font-size: 1.5rem;
+    }
+
+    .info{
+        font-size: 14px;
+    }
+
+
+    .songs li{
+        font-size: 14px;
+        border-bottom: 1px solid var(--primary-color);
+    }
+    
+    .songs li span{
+        font-size: 14px;
+    }
+
+   
+    form button {
+     display: block;
+     margin: 0 auto;
+     margin-top: 10%;
+     border-radius: 0 1rem 0 1rem ;
+
+    }
+
+    form input{
+        width: 80%;
+        border-radius: 1rem 0 1rem 0;
+    }
+    
+    
+    
+ 
 
 }

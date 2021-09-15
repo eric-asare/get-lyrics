@@ -1,0 +1,28 @@
+{  
+    
+    "name": "Get Lyrics",
+    "short_name" : "Lyrics",
+    "description" : "A lyrics search app",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#3367D6",
+    "theme_color": "#3367D6",
+
+
+    "icons": [
+
+        {
+            "src": "/images/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+
+        {
+            "src": "/images/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+   
+}
+

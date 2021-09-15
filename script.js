@@ -1,5 +1,4 @@
 // variables
-
 const form = document.querySelector('#form');
 const search = document.querySelector('#search');
 const results = document.querySelector('#results');
@@ -117,3 +116,18 @@ function displayError(message){
      },2500);
    
 }
+
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/ServiceWorker.js')
+      .then(function(registration) {
+
+        console.log('ServiceWorker registration successful');
+      }, function(err) {
+        
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    });
+  }
+
