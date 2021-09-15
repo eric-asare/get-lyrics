@@ -144,6 +144,7 @@ section .container{
     background-color: rgba(175, 32, 7,.6);
     box-shadow: 3px 4px 5px rgba(255, 255, 255, .2);
     border-radius: 10px;
+    font-size: 1rem;
 
 }
 
@@ -209,6 +210,7 @@ section .container{
 
     .error{
         width: 50%;
+        font-size: 12px;
     }
 
     .logo{
