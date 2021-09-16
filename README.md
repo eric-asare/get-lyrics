@@ -1,5 +1,5 @@
 # get-lyrics
-A lyrics search app 
+A progressive lyrics search web app ( PWA ) installable on desktop and mobile devices
 
 > Are you a music lover?  **Get Lyrics App** is your number one stop for all the lyrics you need
 
